@@ -20,12 +20,12 @@ li {
     font-size: 60px;
 }
 
-#nav:link {
+a {
     color: black;
     text-decoration: none;
 }
 
-#Nav a:hover {
-    color: #9C7459;
-    text-decoration: underline;
+button {
+    font-size: 24px;
+    background-color: #DD8D4F;
 }
