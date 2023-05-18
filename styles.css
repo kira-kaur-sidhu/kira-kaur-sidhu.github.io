@@ -4,6 +4,7 @@ body {
     text-align: center;
     background-color: #e9cba5;
     font-family: 'Marker Felt', sans-serif;
+    border: 10px solid #e8b262;
 }
 
 ul {
@@ -20,12 +21,14 @@ li {
     font-size: 60px;
 }
 
-#nav:link {
+#Nav:link {
     color: black;
     text-decoration: none;
 }
 
-#Nav a:hover {
+#Nav :hover {
     color: #9C7459;
     text-decoration: underline;
 }
+
+
