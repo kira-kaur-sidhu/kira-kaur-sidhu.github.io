@@ -18,6 +18,8 @@
   margin: 20px 0;
   flex-direction: row; 
   width: 80%;
+  background-image: linear-gradient(to right, rgba(216, 124, 116, 0.4), rgba(100, 100, 216, 0.4));
+
 }
 
 
@@ -27,13 +29,6 @@
   display: block;
   margin: 20px auto;
   text-align: center;
-}
-
-
-.fact-text {
-    text-align: center;
-    font-style: italic;
-    font-size: 30px;
 }
 
 .fact-item img {
@@ -48,3 +43,13 @@
 .tiny {
   font-size: 15px;
 }
+
+.fact-text {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 80px;  /* increase space at the top */
+    padding-bottom: 80px;  /* increase space at the bottom */
+}
+
+
