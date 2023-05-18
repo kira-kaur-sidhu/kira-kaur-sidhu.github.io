@@ -17,6 +17,8 @@ main {
   border-radius: 30px;
   margin: 20px 0;
   flex-direction: row; 
+  width: 80%;
+
 }
 
 
@@ -52,9 +54,7 @@ main {
   font-size: 40px;
 }
 
-body {
 
-  background-color: rgba(156, 116, 89, 0.5);}
 
   header {
     display: flex;
@@ -75,9 +75,7 @@ body {
   }
   
   .fact-item img {
-    width: 50%;
     border-radius: 50%;  /* make the image round */
-    object-fit: cover; /* ensures the aspect ratio of the image is maintained */
   }
 
   .number-of-doctors {
