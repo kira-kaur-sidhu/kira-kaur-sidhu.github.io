@@ -7,6 +7,8 @@
     background-color: rgba(216, 124, 116, 0.4);
     border: #f39c94 5px dotted;
     border-radius: 25px;
+    background-image: linear-gradient(to right, rgba(216, 124, 116, 0.4), rgba(100, 100, 216, 0.4));
+
 }
 
 footer {
