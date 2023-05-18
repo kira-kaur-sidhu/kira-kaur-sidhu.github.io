@@ -46,12 +46,9 @@ main {
   margin: 0 auto;
 }
 
-.tiny-word-title {
-  font-size: 30px;
-}
 
 .smaller {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 
@@ -82,4 +79,9 @@ main {
 
     font-size: 20px;
 
+  }
+
+  .tiny {
+
+    font-size: 15px;
   }
