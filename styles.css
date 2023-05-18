@@ -2,7 +2,7 @@
 
 body {
     text-align: center;
-    background-color: #e9cba5;
+    background-color: #f0e6d9;
     font-family: 'Marker Felt', sans-serif;
     margin: 20px; /* Add margin around the page */
 }
@@ -17,9 +17,11 @@ li {
     font-size: 30px;
 }
 
-#title {
-    font-size: 60px;
+
+.smaller {
+    font-size: 30px;
 }
+
 
 a {
     color: black;
@@ -29,5 +31,34 @@ a {
 button {
     font-size: 24px;
     background-color: #DD8D4F;
+    opacity: 0.9;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
 }
 
+header {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 3;
+}
+
+nav {
+    grid-area: 1 / col3-start / last-line;
+    padding-top: 30px;
+}
+
+#facts-title {
+    font-size: 60px;
+    background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: rainbow-animation 35s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}

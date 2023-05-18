@@ -1,9 +1,10 @@
 
 #intro{
     margin: 50px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: #d87c74;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px;
+    background-color: rgba(216, 124, 116, 0.4);
     border: #f39c94 5px dotted;
     border-radius: 25px;
 }
@@ -14,8 +15,13 @@ footer {
     color:#9C7459;
 }
 
-/* .container{
-    display:grid;
-    grid-template-columns: 1;
-    grid-template-rows: 3;
-}  */
+
+h1 {
+    animation: rainbow-animation 35s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}

@@ -1,11 +1,11 @@
 /* facts.css */
 
-main {
+.flex-container {
   display: flex;
-  justify-content: center;
+  flex-direction: row; /* This makes the image and text side by side */
   align-items: center;
-  flex-direction: column;
-  padding: 20px;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .fact-item {
@@ -18,9 +18,7 @@ main {
   margin: 20px 0;
   flex-direction: row; 
   width: 80%;
-
 }
-
 
 
 .flex-container .doctor-image {
@@ -29,59 +27,24 @@ main {
   display: block;
   margin: 20px auto;
   text-align: center;
-
 }
 
 
-#facts-title {
-  font-size: 80px;
-}
-
-
-.flex-container {
-  display: flex;
-  flex-direction: row; /* This makes the image and text side by side */
-  align-items: center;
-  max-width: 80%;
-  margin: 0 auto;
-}
-
-
-.smaller {
-  font-size: 30px;
-}
-
-
-
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  #title {
-    text-align: center;
-  }
-  
-  .fact-text {
+.fact-text {
     text-align: center;
     font-style: italic;
     font-size: 30px;
+}
 
+.fact-item img {
+  border-radius: 50%;  /* make the image round */
+}
 
-  }
-  
-  .fact-item img {
-    border-radius: 50%;  /* make the image round */
-  }
+.number-of-doctors {
+  font-size: 20px;
 
-  .number-of-doctors {
+}
 
-    font-size: 20px;
-
-  }
-
-  .tiny {
-
-    font-size: 15px;
-  }
+.tiny {
+  font-size: 15px;
+}
