@@ -1,50 +1,57 @@
 /* facts.css */
 
-/* Flex-box container for the main element with a grey background */
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #9C7459;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #9C7459;
+  padding: 20px;
 }
 
-  /* Add a class to the list item containing the fact */
 .fact-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #D87C74;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D87C74;
+  padding: 60px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.flex-container .doctor-image {
+  width: 40%; /* Change this line to make the image the same width as the container */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%; /* This makes the image circular */
+}
+
+.doctor-image {
+  border-radius: 50%;
 }
 
 
-  /* Style the img element to center it with the title and quote */
-img {
-    width: 80%; /* Change this line to make the image the same width as the container */
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
+#facts-title {
+  font-size: 80px;
 }
 
-  /* Set the title font size */
-#title {
-    font-size: 80px;
-}
-
-  /* Set the fact font size */
 .fact-text {
-    font-size: 50px;
+  font-size: 50px;
 }
-/* Add flex container for image and text elements */
+
 .flex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 80%;
-    margin: 0 auto;
-  }
+  display: flex;
+  flex-direction: row; /* This makes the image and text side by side */
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.tiny-word-title {
+  font-size: 30px;
+}
+
+.smaller {
+  font-size: 40px;
+}

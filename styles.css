@@ -1,9 +1,10 @@
-/* Styles CSS */
+/* Styles.CSS */
 
 body {
     text-align: center;
     background-color: #e9cba5;
     font-family: 'Marker Felt', sans-serif;
+    margin: 20px; /* Add margin around the page */
 }
 
 ul {
@@ -29,3 +30,4 @@ button {
     font-size: 24px;
     background-color: #DD8D4F;
 }
+
