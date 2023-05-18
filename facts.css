@@ -1,0 +1,57 @@
+/* facts.css */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(156, 116, 89, 0.5);
+  padding: 20px;
+}
+
+.fact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(216, 124, 116, 0.5);
+  padding: 60px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.flex-container .doctor-image {
+  width: 40%; /* Change this line to make the image the same width as the container */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%; /* This makes the image circular */
+}
+
+.doctor-image {
+  border-radius: 50%;
+}
+
+
+#facts-title {
+  font-size: 80px;
+}
+
+.fact-text {
+  font-size: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row; /* This makes the image and text side by side */
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.tiny-word-title {
+  font-size: 30px;
+}
+
+.smaller {
+  font-size: 40px;
+}
