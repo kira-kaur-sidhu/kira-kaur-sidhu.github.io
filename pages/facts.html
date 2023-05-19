@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles.css">
-  <link rel="stylesheet" href="../facts.css">
+  <link rel="stylesheet" href="../stylesheets/styles.css">
+  <link rel="stylesheet" href="../stylesheets/facts.css">
   <title>Document</title>
 </head>
 <body>
@@ -14,9 +14,9 @@
     <h1 id="facts-title"><span class="smaller">Tiny</span> Creatures in <span class="smaller">Tiny</span> Hats</h1>
     <nav>
       <ul>
-        <li><button><a href="index.html">Home</a></button></li>
-        <li><button><a href="gallery.html">Gallery</a></button></li>
-        <li><button><a href="facts.html">Facts</a></button></li>
+        <li><button type="button" onclick="window.location.href='index.html'">Home</button></li>
+        <li><button type="button" onclick="window.location.href='gallery.html'">Gallery</button></li>
+        <li><button type="button" onclick="window.location.href='facts.html'">Facts</button></li>
       </ul>
     </nav>
   </header>
@@ -24,11 +24,17 @@
     <div class="flex-container">
       <ul>
         <li class="fact-item">
-          <img src="../assets/CuteDoctor.jpeg" alt="Cute Doctor">
+          <img src="../images/CuteDoctor.jpeg" alt="Cute Doctor">
           <span class="fact-text">
             "Your level of depression decreases correlation to how long you stare at <span class="tiny">tiny</span> creatures in <span class="tiny">tiny</span> hats" 
             <div class="number-of-doctors">-4 out of 5 doctors</div>
-        </span>        </li>
+        </span></li>
+        <li class="fact-item">
+          <img src="../images/group-of-pugs.jpeg" alt="Group of Pugs">
+          <span class="fact-text">
+            "A group of pugs is called a grumble"
+            <div class="number-of-doctors">-The Internet</div>
+          </span></li>
       </ul>
     </div>    
   </main>

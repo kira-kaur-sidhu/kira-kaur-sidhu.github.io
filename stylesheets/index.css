@@ -11,15 +11,13 @@
 
 }
 
-footer {
-    margin-top: 80px;
-    margin-bottom: 2px;
-    color:#9C7459;
+h1 {
+    animation:none;
 }
 
-
-h1 {
+h1:hover {
     animation: rainbow-animation 35s linear infinite;
+
 }
 
 @keyframes rainbow-animation {
